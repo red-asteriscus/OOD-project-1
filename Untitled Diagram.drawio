@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2024-02-07T09:39:58.079Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="06BnimX0LtszNZE17KqA" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-07T09:57:25.779Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="OhKFRJhOF98a9ORmNaFA" version="23.1.1" type="github">
   <diagram name="Page-1" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
-    <mxGraphModel dx="2672" dy="1095" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="1">
+    <mxGraphModel dx="1566" dy="430" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="VwYbgyeqXYnY6n16pQaH-1" value="Musical Instruments" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="VwYbgyeqXYnY6n16pQaH-1" value="&amp;lt;&amp;lt;Abstract&amp;gt;&amp;gt;&lt;br&gt;Musical Instruments" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="345" y="40" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="VwYbgyeqXYnY6n16pQaH-15" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="1">
@@ -40,16 +40,16 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VwYbgyeqXYnY6n16pQaH-29" value="String" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="VwYbgyeqXYnY6n16pQaH-29" value="&amp;lt;&amp;lt;Abstract&amp;gt;&amp;gt;&lt;br&gt;String" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="365" y="240" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="VwYbgyeqXYnY6n16pQaH-32" value="Brass" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="VwYbgyeqXYnY6n16pQaH-32" value="&amp;lt;&amp;lt;Abstract&amp;gt;&amp;gt;&lt;br&gt;Brass" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1085" y="240" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="VwYbgyeqXYnY6n16pQaH-33" value="Keyboard" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="VwYbgyeqXYnY6n16pQaH-33" value="&amp;lt;&amp;lt;Abstract&amp;gt;&amp;gt;&lt;br&gt;Keyboard" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="725" y="240" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="VwYbgyeqXYnY6n16pQaH-35" value="Wood Wind" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="VwYbgyeqXYnY6n16pQaH-35" value="&amp;lt;&amp;lt;Abstract&amp;gt;&amp;gt;&lt;br&gt;Wood Wind" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="5" y="240" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="VwYbgyeqXYnY6n16pQaH-37" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
@@ -128,7 +128,7 @@
             <mxPoint x="65" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VwYbgyeqXYnY6n16pQaH-65" value="Percussion" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="VwYbgyeqXYnY6n16pQaH-65" value="&amp;lt;&amp;lt;Abstract&amp;gt;&amp;gt;&lt;br&gt;Percusiion" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-355" y="240" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="VwYbgyeqXYnY6n16pQaH-66" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="1">
@@ -276,6 +276,24 @@
         </mxCell>
         <mxCell id="VwYbgyeqXYnY6n16pQaH-98" value="Country" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="75" y="40" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VwYbgyeqXYnY6n16pQaH-101" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="VwYbgyeqXYnY6n16pQaH-102">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="505" y="60" as="sourcePoint" />
+            <mxPoint x="665" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VwYbgyeqXYnY6n16pQaH-102" value="&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;br&gt;Play" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="690" y="10" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VwYbgyeqXYnY6n16pQaH-103" value="&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;br&gt;Change Pitch" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="690" y="80" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VwYbgyeqXYnY6n16pQaH-105" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="VwYbgyeqXYnY6n16pQaH-103">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="505" y="75" as="sourcePoint" />
+            <mxPoint x="690" y="50" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
