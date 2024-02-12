@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-12T19:06:33.920Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="6mIsWzkVugLMJKBhC8cO" version="23.1.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-02-12T19:09:37.236Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="8yoXeSynwZejYCbfeQEZ" version="23.1.2" type="github" pages="2">
   <diagram name="Page-1" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
     <mxGraphModel dx="1323" dy="595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -672,17 +672,17 @@
         <mxCell id="tX26VZe_4oqFnaIGhmJL-4" value="+ Trumpet()&lt;br&gt;+ Trumpet(String, String)&lt;br&gt;+ Trumpet(Trumpet T)&lt;br&gt;+ getWeightDistribution(): String&lt;br&gt;+ getWaterKeyType(): String&lt;br&gt;+ toString(): String&lt;br&gt;+ equals(Object o): boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="tX26VZe_4oqFnaIGhmJL-1">
           <mxGeometry y="78" width="210" height="122" as="geometry" />
         </mxCell>
-        <mxCell id="tX26VZe_4oqFnaIGhmJL-5" value="Synthesiser &amp;lt;&amp;lt;extends&amp;gt;&amp;gt; Keyboard" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1540" y="1110" width="210" height="206" as="geometry" />
+        <mxCell id="tX26VZe_4oqFnaIGhmJL-5" value="Euphonium &amp;lt;&amp;lt;extends&amp;gt;&amp;gt; Brass" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="1110" width="210" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="tX26VZe_4oqFnaIGhmJL-6" value="# polyphony: String&lt;br&gt;# soundEngine: String&lt;br&gt;# oscillators; int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="tX26VZe_4oqFnaIGhmJL-5">
-          <mxGeometry y="26" width="210" height="50" as="geometry" />
+        <mxCell id="tX26VZe_4oqFnaIGhmJL-6" value="# lacquerThickness: double&lt;br&gt;# tuningSlideType: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="tX26VZe_4oqFnaIGhmJL-5">
+          <mxGeometry y="26" width="210" height="44" as="geometry" />
         </mxCell>
         <mxCell id="tX26VZe_4oqFnaIGhmJL-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="tX26VZe_4oqFnaIGhmJL-5">
-          <mxGeometry y="76" width="210" height="8" as="geometry" />
+          <mxGeometry y="70" width="210" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="tX26VZe_4oqFnaIGhmJL-8" value="+&amp;nbsp;Synthesiser()&lt;br&gt;+&amp;nbsp;Synthesiser(String, String, int)&lt;br&gt;+&amp;nbsp;Synthesiser(Synthesiser Sz)&lt;br&gt;+ getPolyphony(): String&lt;br&gt;+ getSoundEngine(): String&lt;br&gt;+ getOscillators(): int&lt;br&gt;+ toString(): String&lt;br&gt;+ equals(Object o): boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="tX26VZe_4oqFnaIGhmJL-5">
-          <mxGeometry y="84" width="210" height="122" as="geometry" />
+        <mxCell id="tX26VZe_4oqFnaIGhmJL-8" value="+ Euphonium()&lt;br&gt;+ Euphonium(double, String)&lt;br&gt;+ Euphonium(Euphonium E)&lt;br&gt;+ getLacquerThickness(): double&lt;br&gt;+ getTuningSlideType(): String&lt;br&gt;+ toString(): String&lt;br&gt;+ equals(Object o): boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="tX26VZe_4oqFnaIGhmJL-5">
+          <mxGeometry y="78" width="210" height="122" as="geometry" />
         </mxCell>
         <mxCell id="tX26VZe_4oqFnaIGhmJL-9" value="Cornet &amp;lt;&amp;lt;extends&amp;gt;&amp;gt; Brass" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1670" y="880" width="210" height="190" as="geometry" />
