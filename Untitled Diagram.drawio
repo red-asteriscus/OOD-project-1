@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-21T00:07:05.216Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="dJxHLWEk_stEtNHwDc6c" version="23.1.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-02-21T00:32:44.770Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="qWd5VGGO0i0B-LQPH3in" version="23.1.5" type="github" pages="2">
   <diagram name="Page-1" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
     <mxGraphModel dx="1323" dy="595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -296,7 +296,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="3sXM__8lgrnaIp6EIEHx" name="Page-2">
-    <mxGraphModel dx="1244" dy="496" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1314" dy="425" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -376,16 +376,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="dEGA_bCqO4jVMYCDkHFc-1" value="StringInst &amp;lt;&amp;lt;extends&amp;gt;&amp;gt; MusicalInstruments&lt;br&gt;&amp;lt;&amp;lt;Abstract&amp;gt;&amp;gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="460" y="590" width="320" height="200" as="geometry" />
+          <mxGeometry x="460" y="590" width="320" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="dEGA_bCqO4jVMYCDkHFc-2" value="# numberOfStrings: int&lt;br&gt;# shape: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="dEGA_bCqO4jVMYCDkHFc-1" vertex="1">
-          <mxGeometry y="40" width="320" height="40" as="geometry" />
+        <mxCell id="dEGA_bCqO4jVMYCDkHFc-2" value="# nbOfStrings: int&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="dEGA_bCqO4jVMYCDkHFc-1" vertex="1">
+          <mxGeometry y="40" width="320" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dEGA_bCqO4jVMYCDkHFc-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="dEGA_bCqO4jVMYCDkHFc-1" vertex="1">
-          <mxGeometry y="80" width="320" height="8" as="geometry" />
+          <mxGeometry y="70" width="320" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="dEGA_bCqO4jVMYCDkHFc-4" value="+ StringInst()&lt;br&gt;+ StringInst(numberOfStrings: int, shape: String)&lt;br&gt;+ StringInst(String s)&lt;br&gt;+ getNumberOfStrings(): int&lt;br&gt;+ toString(): String&lt;br&gt;+ equals(Object o): boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="dEGA_bCqO4jVMYCDkHFc-1" vertex="1">
-          <mxGeometry y="88" width="320" height="112" as="geometry" />
+        <mxCell id="dEGA_bCqO4jVMYCDkHFc-4" value="+ StringInst()&lt;br&gt;+ StringInst(nbOfStrings: int)&lt;br&gt;+ StringInst(String s)&lt;br&gt;+ getNbOfStrings(): int&lt;br&gt;+ toString(): String&lt;br&gt;+ equals(Object o): boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="dEGA_bCqO4jVMYCDkHFc-1" vertex="1">
+          <mxGeometry y="78" width="320" height="112" as="geometry" />
         </mxCell>
         <mxCell id="dEGA_bCqO4jVMYCDkHFc-5" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="dEGA_bCqO4jVMYCDkHFc-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -394,16 +394,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="qwCtivi4xOOy-BtwJOuV-1" value="Keyboard &amp;lt;&amp;lt;extends&amp;gt;&amp;gt; MusicalInstruments&lt;br&gt;&amp;lt;&amp;lt;Abstract&amp;gt;&amp;gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="880" y="600" width="400" height="328" as="geometry" />
+          <mxGeometry x="880" y="600" width="400" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="qwCtivi4xOOy-BtwJOuV-2" value="# touchSensitivity: boolean&lt;br&gt;# keyMaterial: String&lt;br&gt;# bench: boolean&lt;br&gt;# keyCover: boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="qwCtivi4xOOy-BtwJOuV-1" vertex="1">
+        <mxCell id="qwCtivi4xOOy-BtwJOuV-2" value="# IsTouchSensitive: boolean&lt;br&gt;# keyMaterial: String&lt;br&gt;# bench: boolean&lt;br&gt;# keyCover: boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="qwCtivi4xOOy-BtwJOuV-1" vertex="1">
           <mxGeometry y="40" width="400" height="80" as="geometry" />
         </mxCell>
         <mxCell id="qwCtivi4xOOy-BtwJOuV-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="qwCtivi4xOOy-BtwJOuV-1" vertex="1">
           <mxGeometry y="120" width="400" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="qwCtivi4xOOy-BtwJOuV-4" value="+ Keyboard()&lt;br&gt;+ Keyboard(touchSensitivity: boolean, keyMaterial: String, bench: boolean, keyCover: boolean)&lt;br&gt;+ Keyboard(Keyboard k)&lt;br&gt;+ pushKey(): boolean&lt;br&gt;+ getKeyMaterial(): String&lt;br&gt;+ isPushed(): boolean&lt;br&gt;+ getTouchSensitivity(): boolean&lt;br&gt;+ hasBench(): boolean&lt;br&gt;+ hasKeyCover: boolean&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ toString(): String&lt;br&gt;+ equals(Object o): boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="qwCtivi4xOOy-BtwJOuV-1" vertex="1">
-          <mxGeometry y="130" width="400" height="198" as="geometry" />
+        <mxCell id="qwCtivi4xOOy-BtwJOuV-4" value="+ Keyboard()&lt;br&gt;+ Keyboard(IsTouchSensitive: boolean, keyMaterial: String, bench: boolean, keyCover: boolean)&lt;br&gt;+ Keyboard(Keyboard k)&lt;br&gt;+ getKeyMaterial(): String&lt;br&gt;+ IsTouchSensitive(): boolean&lt;br&gt;+ hasBench(): boolean&lt;br&gt;+ hasKeyCover: boolean&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ toString(): String&lt;br&gt;+ equals(Object o): boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="qwCtivi4xOOy-BtwJOuV-1" vertex="1">
+          <mxGeometry y="130" width="400" height="170" as="geometry" />
         </mxCell>
         <mxCell id="qwCtivi4xOOy-BtwJOuV-5" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="qwCtivi4xOOy-BtwJOuV-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
