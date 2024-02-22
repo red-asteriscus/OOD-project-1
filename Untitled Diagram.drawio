@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-22T22:07:20.768Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="KxQz3QHXa7KofmS8amdF" version="23.1.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-02-22T22:10:43.195Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="j49AtyEHPVBNvvDu5tuv" version="23.1.5" type="github" pages="2">
   <diagram name="Page-1" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
     <mxGraphModel dx="2092" dy="602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -594,13 +594,13 @@
         <mxCell id="KZkgwkgVbWf41FXr7WjS-5" value="Synthesiser &amp;lt;&amp;lt;extends&amp;gt;&amp;gt; Keyboard" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1010" y="1240" width="210" height="206" as="geometry" />
         </mxCell>
-        <mxCell id="KZkgwkgVbWf41FXr7WjS-6" value="# polyphony: String&lt;br&gt;# soundEngine: String&lt;br&gt;# oscillators; int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="KZkgwkgVbWf41FXr7WjS-5" vertex="1">
+        <mxCell id="KZkgwkgVbWf41FXr7WjS-6" value="# polyphony: String&lt;br&gt;# soundEngine: String&lt;br&gt;# nbOfOscillators; int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="KZkgwkgVbWf41FXr7WjS-5" vertex="1">
           <mxGeometry y="26" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="KZkgwkgVbWf41FXr7WjS-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="KZkgwkgVbWf41FXr7WjS-5" vertex="1">
           <mxGeometry y="76" width="210" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="KZkgwkgVbWf41FXr7WjS-8" value="+&amp;nbsp;Synthesiser()&lt;br&gt;+&amp;nbsp;Synthesiser(String, String, int)&lt;br&gt;+&amp;nbsp;Synthesiser(Synthesiser Sz)&lt;br&gt;+ getPolyphony(): String&lt;br&gt;+ getSoundEngine(): String&lt;br&gt;+ getOscillators(): int&lt;br&gt;+ toString(): String&lt;br&gt;+ equals(Object o): boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="KZkgwkgVbWf41FXr7WjS-5" vertex="1">
+        <mxCell id="KZkgwkgVbWf41FXr7WjS-8" value="+&amp;nbsp;Synthesiser()&lt;br&gt;+&amp;nbsp;Synthesiser(String, String, int)&lt;br&gt;+&amp;nbsp;Synthesiser(Synthesiser Sz)&lt;br&gt;+ getPolyphony(): String&lt;br&gt;+ getSoundEngine(): String&lt;br&gt;+ getNbOfOscillators(): int&lt;br&gt;+ toString(): String&lt;br&gt;+ equals(Object o): boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="KZkgwkgVbWf41FXr7WjS-5" vertex="1">
           <mxGeometry y="84" width="210" height="122" as="geometry" />
         </mxCell>
         <mxCell id="KZkgwkgVbWf41FXr7WjS-9" value="Organ &amp;lt;&amp;lt;extends&amp;gt;&amp;gt; Keyboard" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
